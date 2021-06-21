@@ -1,6 +1,6 @@
 var arrOfImages = ["csharplogo.png", "csslogo.png", "htmllogo.png", "javalogo.png", "jslogo.png", "pythonlogo.png", "kitten-care.JPG", "mohawk.jpg", "puppy.jpg"];
 
-function doubleImages(arr) {
+function doubleImages() {
     for (var i = arr.length - 1; i >= 0; i--) {
         arr.push(arr[i]);
     }
