@@ -6,7 +6,7 @@ function doubleImages(arr) {
     }
     return arr;
 }
-console.log(doubleImages(arrOfImages));
+// console.log(doubleImages(arrOfImages));
 
 function displayCards(arr) {
     var container = document.getElementById("container");
